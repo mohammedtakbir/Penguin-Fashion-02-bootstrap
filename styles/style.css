@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+header{
+    /* min-height: 100vh; */
+    background-color: #FFF9F4;
+}
+.penguin-navbar {
+	padding-top: 40px;
+	padding-bottom: 35px;
+}
+.penguin-nav-item{
+    margin: 0 25px;
+}
+.penguin-nav-link{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3C3C3C;
+}
+
+
+
+
+
+
+
+
+.banner{
+    padding-bottom: 120px;
+}
+.banner-head{
+    color: #363958;
+    font-weight: 700;
+    font-size: 4.2rem;
+    margin-bottom: 20px;
+}
+.banner-head-color{
+    color: #FA804C;
+}
+.banner-info p{
+    color: #3E3E3E;
+    font-size: 1rem;
+}
+.btn-banner{
+    background-color: #3D4FF3;
+    padding: 14px 26px;
+}
+.btn-banner:hover{
+    background-color: #3D4FF3;
+}
+
+
+.casual-shoes{
+    padding: 50px 0;
+}
+.shoes-title{
+    margin-bottom: 30px;
+}
+.shoes-bg{
+    background-color: #f1f1f1;
+}
+.shoes-info h3{
+    font-size: 1.5rem;
+    color: #363958;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+.shoes-info p{
+    color: #3E3E3E;
+    font-size: 1rem;
+}
+.shoes-info h5{
+    color: #FA804C;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+.benefits{
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+.benefit-info h5{
+    font-size: 24px;
+    color: #363958;
+    font-weight: 700;
+}
+.benefit-info p{
+    color: #3E3E3E;
+    font-size: 1rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .banner-head {
+        font-size: 3.2rem;
+    }
+    .navbar-img{
+        height: 40px;
+        width: 200px !important;
+    }
+}
